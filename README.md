@@ -1,4 +1,4 @@
-# T20-cup-2024-stats
+# T20-cricket worldcup-2024-stats
 
 ## Overview
 
