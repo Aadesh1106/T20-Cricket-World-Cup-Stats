@@ -49,7 +49,6 @@ st.markdown("""
 # Team logos dictionary - using more reliable sources
 TEAM_LOGOS = {
     "India": "https://flagcdn.com/w40/in.png",
-    "Australia": "https://flagcdn.com/w40/au.png",
     "England": "https://flagcdn.com/w40/gb-eng.png",
     "Pakistan": "https://flagcdn.com/w40/pk.png",
     "New Zealand": "https://flagcdn.com/w40/nz.png",
@@ -523,4 +522,5 @@ st.sidebar.info(f"""
 st.sidebar.markdown("### 🔄 Refresh Data")
 if st.sidebar.button("Refresh"):
     st.cache_data.clear()
+
     st.rerun()
